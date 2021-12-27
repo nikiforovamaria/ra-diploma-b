@@ -1,0 +1,33 @@
+{
+  "name": "ra-diploma-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikiforovamaria/ra-diploma-b.git"
+  },
+  "author": "Maria Nikiforova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikiforovamaria/ra-diploma-b/issues"
+  },
+  "homepage": "https://github.com/nikiforovamaria/ra-diploma-b#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "faker": "^5.5.3",
+    "forever": "^4.0.1",
+    "http": "^0.0.1-security",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-slow": "^2.1.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2"
+  }
+}
